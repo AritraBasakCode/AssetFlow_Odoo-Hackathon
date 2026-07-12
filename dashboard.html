@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssetFlow | Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h1>AssetFlow</h1>
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li class="active">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-building"></i>
+                    Organization Setup
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                    Assets
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    Allocation & Transfer
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Resource Booking
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    Maintenance
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    Audit
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-chart-column"></i>
+                    Reports
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-bell"></i>
+                    Notifications
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+<main class="main-content">
+
+    <!-- Header -->
+
+    <header>
+
+        <div>
+            <h2>Asset Dashboard</h2>
+            <p>Enterprise Asset Management System</p>
+        </div>
+
+        <div class="profile">
+
+            <i class="fa-solid fa-user-circle"></i>
+
+            <div>
+                <h4 id="username"></h4>
+                <small id="userRole"></small>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= DASHBOARD STATS ================= -->
+
+    <section class="overview-grid">
+
+        <div class="card">
+            <h4>Total Assets</h4>
+            <h1 id="totalAssets"></h1>
+        </div>
+
+        <div class="card">
+            <h4>Available Assets</h4>
+            <h1 id="availableAssets"></h1>
+        </div>
+
+        <div class="card">
+            <h4>Allocated Assets</h4>
+            <h1 id="allocatedAssets"></h1>
+        </div>
+
+        <div class="card">
+            <h4>Assets Due For Return</h4>
+            <h1 id="dueReturns"></h1>
+        </div>
+
+        <div class="card">
+            <h4>Maintenance Requests</h4>
+            <h1 id="maintenanceRequests"></h1>
+        </div>
+
+        <div class="card">
+            <h4>Asset Utilization</h4>
+            <h1 id="utilizationRate"></h1>
+        </div>
+
+    </section>
+
+    <!-- ================= QUICK ACTIONS ================= -->
+
+    <section class="actions">
+
+        <button class="primary-btn" id="registerAssetBtn">
+            <i class="fa-solid fa-plus"></i>
+            Register Asset
+        </button>
+
+        <button class="secondary-btn" id="allocateAssetBtn">
+            <i class="fa-solid fa-share"></i>
+            Allocate Asset
+        </button>
+
+        <button class="secondary-btn" id="maintenanceBtn">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            Maintenance
+        </button>
+
+        <button class="secondary-btn" id="reportsBtn">
+            <i class="fa-solid fa-chart-column"></i>
+            Reports
+        </button>
+
+    </section>
+
+    <!-- ================= NOTIFICATIONS ================= -->
+
+    <section class="activity">
+
+        <h2>Notifications</h2>
+
+        <div id="notificationContainer">
+
+            <!-- Backend inserts notifications here -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= RECENT ALLOCATIONS ================= -->
+
+    <section class="activity">
+
+        <h2>Recent Allocations</h2>
+
+        <div id="allocationContainer">
+
+            <!-- Backend inserts allocations here -->
+
+        </div>
+
+    </section>
+
+</main>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>

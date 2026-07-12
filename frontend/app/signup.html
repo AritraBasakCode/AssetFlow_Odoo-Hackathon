@@ -55,41 +55,82 @@
 
             <h2>Create Account</h2>
 
-            <div class="input-box">
-                <i class="fa-solid fa-user"></i>
-                <input type="text" placeholder="Full Name">
-            </div>
+            <form action="index.html" method="GET">
 
-            <div class="input-box">
-                <i class="fa-solid fa-envelope"></i>
-                <input type="email" placeholder="Email Address">
-            </div>
+    <div class="input-box">
+        <i class="fa-solid fa-user"></i>
 
-            <div class="input-box">
-                <i class="fa-solid fa-user-tag"></i>
-                <input type="text" placeholder="Username">
-            </div>
+        <input
+            type="text"
+            name="fullname"
+            placeholder="Full Name"
+            required>
 
-            <div class="input-box">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Password">
-            </div>
+    </div>
 
-            <div class="input-box">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Confirm Password">
-            </div>
+    <div class="input-box">
+        <i class="fa-solid fa-envelope"></i>
 
-            <button class="main-btn">
-                Create Account
-            </button>
+        <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required>
 
-            <p class="toggle-text">
-                Already have an account?
-                <a href="index.html" class="toggle-link">
-                    Sign In
-                </a>
-            </p>
+    </div>
+
+    <div class="input-box">
+        <i class="fa-solid fa-user-tag"></i>
+
+        <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            required>
+
+    </div>
+
+    <div class="input-box">
+        <i class="fa-solid fa-lock"></i>
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required>
+
+    </div>
+
+    <div class="input-box">
+        <i class="fa-solid fa-lock"></i>
+
+        <input
+            type="password"
+            name="confirmPassword"
+            placeholder="Confirm Password"
+            required>
+
+    </div>
+
+    <button type="submit" class="main-btn">
+
+        Create Account
+
+    </button>
+
+</form>
+
+<p class="toggle-text">
+
+    Already have an account?
+
+    <a href="index.html" class="toggle-link">
+
+        Sign In
+
+    </a>
+
+</p>
 
         </div>
 
