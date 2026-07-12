@@ -169,6 +169,7 @@ Asset States
 - FullCalendar
 - Recharts
 - Lucide Icons
+- Figma
 
 ---
 
