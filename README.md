@@ -1,4 +1,4 @@
-# 🚀 AssetFlow
+# AssetFlow
 ### Enterprise Asset & Resource Management System
 
 AssetFlow is a modern ERP-inspired web application designed to simplify how organizations manage physical assets and shared resources.
@@ -9,9 +9,9 @@ Built for Hackathons, Portfolio Projects, and Enterprise Demonstrations.
 
 ---
 
-## 📌 Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 
 - Secure Login & Signup
 - JWT Authentication
@@ -22,7 +22,7 @@ Built for Hackathons, Portfolio Projects, and Enterprise Demonstrations.
 
 ---
 
-### 👥 User Roles
+### User Roles
 
 - Administrator
 - Asset Manager
@@ -31,7 +31,7 @@ Built for Hackathons, Portfolio Projects, and Enterprise Demonstrations.
 
 ---
 
-### 🏢 Organization Management
+### Organization Management
 
 - Department Management
 - Asset Categories
@@ -41,7 +41,7 @@ Built for Hackathons, Portfolio Projects, and Enterprise Demonstrations.
 
 ---
 
-### 💻 Asset Management
+### Asset Management
 
 - Register Assets
 - QR Code Generation
@@ -60,7 +60,7 @@ Asset States
 
 ---
 
-### 🔄 Asset Allocation
+### Asset Allocation
 
 - Allocate Assets
 - Transfer Requests
@@ -71,7 +71,7 @@ Asset States
 
 ---
 
-### 📅 Resource Booking
+### Resource Booking
 
 - Calendar Interface
 - Shared Resources
@@ -91,7 +91,7 @@ Asset States
 
 ---
 
-### 📋 Audit Management
+### Audit Management
 
 - Audit Cycles
 - Auditor Assignment
@@ -101,7 +101,7 @@ Asset States
 
 ---
 
-### 📊 Dashboard
+### Dashboard
 
 - Live KPIs
 - Asset Statistics
@@ -112,7 +112,7 @@ Asset States
 
 ---
 
-### 🔔 Notifications
+### Notifications
 
 - Asset Allocation
 - Booking Confirmation
@@ -123,7 +123,7 @@ Asset States
 
 ---
 
-### 📈 Reports
+### Reports
 
 - Asset Utilization
 - Maintenance Trends
@@ -133,7 +133,7 @@ Asset States
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
                         Internet
@@ -154,7 +154,7 @@ Asset States
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -213,7 +213,7 @@ Database
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AssetFlow/
@@ -247,7 +247,7 @@ AssetFlow/
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 ```
 Signup
@@ -296,7 +296,7 @@ Main Tables
 
 ---
 
-## 🔄 Workflows
+## Workflows
 
 ### Asset Allocation
 
@@ -386,7 +386,7 @@ Available Again
 
 ---
 
-## 🔒 Security
+## Security
 
 - JWT Authentication
 - Password Hashing
